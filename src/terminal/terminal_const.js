@@ -1,0 +1,1 @@
+export const leadingText = 'goktug@Goktugs-Portfolio-Site ~ %';
