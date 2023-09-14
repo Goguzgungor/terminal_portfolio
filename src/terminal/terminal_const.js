@@ -1,1 +1,1 @@
-export const leadingText = 'goktug@Goktugs-Portfolio-Site ~ %';
+export const leadingText = 'guest@goktug.cli ~ %';

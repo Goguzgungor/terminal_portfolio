@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Terminal from "react-terminal-ui";
 import React from "react";
 import TerminalController from "./terminal/terminal_comp";
 

@@ -1,0 +1,50 @@
+h1{
+        color: #fbf2c4;
+        font-size: 26px;
+        font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+        position: relative;
+    font-weight: normal;
+}
+
+.defaulttext{
+        color: #fbf2c4;
+        font-size: 18px;
+        padding-right: 10px;
+        padding-bottom:5px ;
+        font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+        position: relative;
+    font-weight: normal;
+}
+.dogpic{
+        height: 400px;
+}
+.welcometext{
+        color: #ffa600;
+        padding-right: 10px;
+        padding-bottom:5px ;
+        font-size: 18px;
+        font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+        position: relative;
+        font-weight: normal;
+}
+.title{
+        display: flex;
+
+
+}
+.startingComponent{
+        padding-left: 45px;
+}
+
+.logosmall{
+        width: 100px;
+        position: relative;
+}
+
+.bordercont{
+        border: 1px solid #fbf2c4;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+        position: relative;
+}
