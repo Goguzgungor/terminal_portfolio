@@ -1,10 +1,10 @@
-import {TerminalOutput} from "react-terminal-ui";
 import React from "react";
 import {leadingText} from "./terminal_const";
 import goktugoguzgungor_cv from "../assets/goktugoguzgungor_cv.pdf";
 import './terminalstyle.css';
 import {getLastLoginMessage} from "./utilfonc";
 import cuteDog from '../assets/cuteDog.jpeg';
+import TerminalOutput from "./TerminallOutput";
 export const terminal_func = (func,text,terminalLineData) => {
     let newTerminalLineData = [...terminalLineData];
     if (text === 'clear') {

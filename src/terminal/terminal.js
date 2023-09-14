@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import  {TerminalInput , TerminalOutput } from 'react-terminal-ui';
 import './terminalstyle.css';
 
 export const ColorMode = {
@@ -103,12 +102,8 @@ function Terminal({
         };
     }, [onInput]);
 
-    const classes = ['react-terminal-wrapper'];
-    if (colorMode === ColorMode.Light) {
-        classes.push('react-terminal-light');
-    }
     return (
-        <div className={classes.join(' ')} >
+        <div className={'react-terminal-wrapper'} >
             <div className="react-terminal" style={{ height }}>
                 {children}
                 {onInput && <div className="react-terminal-line react-terminal-input react-terminal-active-input" data-terminal-prompt={prompt || '$'} key="terminal-line-prompt">{currentLineInput}<span className="cursor" style={{ left: `${cursorPos + 1}px` }}></span></div>}
@@ -119,5 +114,4 @@ function Terminal({
     );
 }
 
-export { TerminalInput, TerminalOutput };
 export default Terminal;

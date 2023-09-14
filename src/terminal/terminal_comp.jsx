@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import { ColorMode, TerminalOutput } from 'react-terminal-ui';
 import {terminal_func} from "./terminal_func";
 import {leadingText} from "./terminal_const";
 import {getLastLoginMessage} from "./utilfonc";
-import Terminal from "./terminal";
+import Terminal, {ColorMode} from "./terminal";
 import {StartingComponent} from "./StartingComponent";
+import TerminalOutput from "./TerminallOutput";
 
 const TerminalController = (props = {}) => {
     const [terminalLineData, setTerminalLineData] = useState([
