@@ -61,7 +61,7 @@ export const terminal_func = (func,text,terminalLineData) => {
             OutputElement('gok cv'),
             <div className="downloadRes">
                 <TerminalOutput>
-                    Click to download my resume ->
+                    Click to download my resume -{'>'}
                 </TerminalOutput>
             <TerminalOutput>
             <a
@@ -162,7 +162,6 @@ export const terminal_func = (func,text,terminalLineData) => {
             <TerminalOutput></TerminalOutput>,
             <TerminalOutput>
                 <a
-                    onClick={() => window.location.href = 'https://www.example.com'}
                     href={'https://siparisim.com.tr/'}
                     target="_blank"
                     rel="noreferrer"
